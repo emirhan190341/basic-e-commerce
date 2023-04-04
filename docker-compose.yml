@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+  app:
+    image: 'e-commerce-project:latest'
+    build:
+      context: .
+    ports:
+      - "9595:8082"
