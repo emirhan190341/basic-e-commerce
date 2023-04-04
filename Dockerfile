@@ -11,3 +11,5 @@ FROM openjdk:17-jdk-slim
 WORKDIR e-commerce-project
 COPY --from=build target/*.jar e-commerce-project.jar
 ENTRYPOINT ["java", "-jar", "e-commerce-project.jar"]
+
+#Dockerized

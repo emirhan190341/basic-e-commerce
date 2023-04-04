@@ -7,3 +7,5 @@ services:
       context: .
     ports:
       - "9595:8082"
+
+#Dockerized
